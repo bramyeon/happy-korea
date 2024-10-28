@@ -11,7 +11,6 @@ Bryan Nathanael Wijaya<sup>1</sup>, Ju Hee Jeung<sup>2,3,4</sup>, Kyungmin Lee<s
 ## Datasets
 
 Preprocessed datasets are made available in [this Google Drive link](https://drive.google.com/drive/folders/1aMIsi4qyBsFqeDbfwHUyE2JTEv06U1YO?usp=drive_link) due to their large file size. The original datasets are not uploaded to prevent any copyright issues. Some explanations:
-- `nocat` datasets are those that exclude categorical columns, while those with no `nocat` maintain the categorical columns in one-hot vector representations.
-- `shuffled` datasets have their rows shuffled randomly, while those with no `shuffled` name are not shuffled.
-- `train` datasets are dedicated for model training. For `shuffled` datasets, this composes of the first 90% of the complete dataset. For non-`shuffled` datasets, this composes of the data from years 2020, 2021, and 2022.
-- `test` datasets are dedicated for model inference and testing. For `shuffled` datasets, this composes of the latter 10% of the complete dataset. For non-`shuffled` datasets, this composes of the data from year 2023.
+- `nocat` datasets exclude categorical columns, while those with no `nocat` maintain the categorical columns in one-hot vector representations.
+- `train` datasets are dedicated to model training and consist of the first 90% of the complete dataset. 
+- `test` datasets are dedicated to model inference and testing and consist of the latter 10% of the complete dataset. 
