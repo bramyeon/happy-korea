@@ -10,7 +10,5 @@ Bryan Nathanael Wijaya<sup>1</sup>, Ju Hee Jeung<sup>2,3,4</sup>, Kyungmin Lee<s
 
 ## Datasets
 
-Preprocessed datasets are made available in [this Google Drive link](https://drive.google.com/drive/folders/1aMIsi4qyBsFqeDbfwHUyE2JTEv06U1YO?usp=drive_link) due to their large file size. The original datasets are not uploaded to prevent any copyright issues. Some explanations:
-- `nocat` datasets exclude categorical columns, while those with no `nocat` maintain the categorical columns in one-hot vector representations.
-- `train` datasets are dedicated to model training and consist of the first 90% of the complete dataset. 
-- `test` datasets are dedicated to model inference and testing and consist of the latter 10% of the complete dataset. 
+Preprocessed datasets are made available in [this Google Drive link](https://drive.google.com/drive/folders/1aMIsi4qyBsFqeDbfwHUyE2JTEv06U1YO?usp=drive_link) due to their large file size. The original datasets are not uploaded to prevent any copyright issues. 
+The dataset consists of the Korean Happiness Survey features with a correlation value of at least 0.1 corresponding to the happiness ladder and the 12 additional columns on environmental and socioeconomic factors. In total, we have 85 independent features that may contribute to the happiness ladder (i.e., life ladder).
