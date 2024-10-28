@@ -10,5 +10,21 @@ Bryan Nathanael Wijaya<sup>1</sup>, Ju Hee Jeung<sup>2,3,4</sup>, Kyungmin Lee<s
 
 ## Datasets
 
-Preprocessed datasets are made available in [this Google Drive link](https://drive.google.com/drive/folders/1aMIsi4qyBsFqeDbfwHUyE2JTEv06U1YO?usp=drive_link) due to their large file size. The original datasets are not uploaded to prevent any copyright issues. 
-The dataset consists of the Korean Happiness Survey features with a correlation value of at least 0.15 (`basic`) or 0.25 (`simple`) corresponding to the happiness ladder and the 12 additional columns on environmental and socioeconomic factors. In total, we have 58 (`basic`) or 39 (`simple`) independent features that may contribute to the happiness ladder (i.e., life ladder).
+Preprocessed datasets are made available in [this Google Drive link](https://drive.google.com/drive/folders/1aMIsi4qyBsFqeDbfwHUyE2JTEv06U1YO?usp=drive_link) due to their large file size. The original datasets are not uploaded to prevent any copyright issues. We considered the datasets from year 2020 to 2021 only.
+
+
+all_in_dict = {
+    'korea-all': 309,
+    'korea-complex': 142,
+    'korea-medium': 86,
+    'korea-basic': 59,
+    'korea-simple': 40
+}
+
+There are 5 dataset versions based on the number of features considered.
+
+- `korea-all`: All relevant Korean Happiness Survey features + 12 socioeconomic and environmental features (308 indep. feat.)
+- `korea-complex`: Korean Happiness Survey features with a correlation value of at least 0.05 w.r.t. the happiness ladder + 12 socioeconomic and environmental features (141 indep. feat.)
+- `korea-medium`: Korean Happiness Survey features with a correlation value of at least 0.10 w.r.t. the happiness ladder + 12 socioeconomic and environmental features (85 indep. feat.)
+- `korea-base`: Korean Happiness Survey features with a correlation value of at least 0.15 w.r.t. the happiness ladder + 12 socioeconomic and environmental features (58 indep. feat.)
+- `korea-simple`: Korean Happiness Survey features with a correlation value of at least 0.25 w.r.t. the happiness ladder + 12 socioeconomic and environmental features (39 indep. feat.)
