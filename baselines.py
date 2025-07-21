@@ -75,11 +75,6 @@ def L2Regression(X_train, y_train):
     model.fit(X_train, y_train)
     return model
 
-def L2Regression(X_train, y_train):
-    model = Ridge(alpha=1.0, random_state=SEED)
-    model.fit(X_train, y_train)
-    return model
-
 def MLP(X_train, y_train):
     model = MLPRegressor(hidden_layer_sizes=(100,), max_iter=300, random_state=SEED)
     model.fit(X_train, y_train)
