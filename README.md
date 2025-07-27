@@ -1,4 +1,4 @@
-# Korean Happiness Score: Analysis, Interpretation, and Modeling with Extended Socioeconomic and Environmental Features
+# Exploring the Relationship Between Air Quality and Happiness in South Korea Using Artificial Neural Network
 __SICSS-Korea 2024 Team Project Extension__  
 Bryan Nathanael Wijaya<sup>a,b</sup>, Yumi Park<sup>c</sup>, Ju Hee Jeung<sup>c</sup>, Kyungmin Lee<sup>d,</sup>*  
 
