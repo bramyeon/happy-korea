@@ -1,13 +1,4 @@
-# Exploring the Relationship Between Air Quality and Happiness in South Korea Using Artificial Neural Network
-__Manuscript submitted to Environmental Impact Assessment Review (2025)__  
-__SICSS-Korea 2024 Team Project Extension__  
-Bryan Nathanael Wijaya<sup>a,b</sup>, Yumi Park<sup>c</sup>, Ju Hee Jeung<sup>c</sup>, Kyungmin Lee<sup>d,</sup>*  
-
-<sup>a</sup> School of Computing, Korea Advanced Institute of Science and Technology (KAIST), Daejeon, South Korea  
-<sup>b</sup> Max Planck Institute of Security and Privacy (MPI-SP), Bochum, Germany  
-<sup>c</sup> Korea Development Institute (KDI) School of Public Policy and Management, Sejong, South Korea  
-<sup>d</sup> Biden School of Public Policy and Administration, University of Delaware, Newark, DE, USA  
-\* Corresponding author ([kmlee@udel.edu](mailto:kmlee@udel.edu))  
+# Exploring the Relationship Between Air Quality and Happiness in South Korea Using Artificial Neural Networks
 
 ## Remarks
 
