@@ -1,5 +1,14 @@
 # Exploring the Relationship Between Air Quality and Happiness in South Korea Using Artificial Neural Networks
 
+__Manuscript submitted to Environmental Impact Assessment Review (2025)__  
+Bryan Nathanael Wijaya<sup>1,2</sup>, Yumi Park<sup>3</sup>, Ju Hee Jeung<sup>3</sup>, Kyungmin Lee<sup>4,</sup>*  
+
+<sup>1</sup> School of Computing, Korea Advanced Institute of Science and Technology (KAIST), Daejeon, South Korea  
+<sup>2</sup> Max Planck Institute of Security and Privacy (MPI-SP), Bochum, Germany  
+<sup>3</sup> Korea Development Institute (KDI) School of Public Policy and Management, Sejong, South Korea  
+<sup>4</sup> Biden School of Public Policy and Administration, University of Delaware, Newark, DE, USA  
+\* Corresponding author ([kmlee@udel.edu](mailto:kmlee@udel.edu))
+
 ## Remarks
 
 The original datasets have not been uploaded to prevent any potential copyright issues. Only the preprocessed test split examples are made available here to accommodate the analysis of happiness ladder factors in the `analysis.ipynb` notebook and the SHAP analysis in the `shap.ipynb` notebook. You can run the Jupyter Notebooks directly in Google Colab. Note that we considered the datasets from 2020 to 2021 only.
